@@ -30,15 +30,32 @@ header{
   display: flex;
   align-content: center ;
   justify-content: center;
-  min-height: 100vh;
-
+ 
 margin: 0;
 }
 .cotainer2{
-  box-sizing: border-box;
-  background-color: rgb(185, 102, 102);
+
+  background-color:#fff;
   border-radius: 5px;
   box-shadow: 0 0 0 5;
   width: 400px;
   max-width: 100%;
+ 
 }
+.formh{
+  padding: 20px 40px;
+}
+form{
+  padding: 20px 40px;
+}
+.formcontrol{
+margin: 10px;
+padding-bottom: 20px;
+position: relative;
+}
+.formcontrol label{
+ display: inline-block;
+ margin-bottom: 5px;
+ 
+}
+
