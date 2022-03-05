@@ -66,5 +66,27 @@ position: relative;
 font-size: 20px;
 padding: 10px;
 }
-
+.formcontrol i{
+  position: absolute;
+  top: 40px;
+  right:10px;
+  
+}
+.formcontrol small{
+  visibility: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.form button{
+  background-color: blue;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+}
 
