@@ -1,6 +1,7 @@
 body{
   font-family: 'Roboto';
   font-size: 22px;
+  background-color: blueviolet;
 }
 .container{
   block-size: 100%;
@@ -23,4 +24,21 @@ header{
  justify-content: center;
  align-items: center;
  text-align: center;
+}
+.section2{
+  box-sizing: border-box;
+  display: flex;
+  align-content: center ;
+  justify-content: center;
+  min-height: 100vh;
+
+margin: 0;
+}
+.cotainer2{
+  box-sizing: border-box;
+  background-color: rgb(185, 102, 102);
+  border-radius: 5px;
+  box-shadow: 0 0 0 5;
+  width: 400px;
+  max-width: 100%;
 }
