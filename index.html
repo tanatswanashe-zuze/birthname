@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <link rel="stylesheet" href="java.js">
+    <script>
+        document.getElementById("Birthname").innerHTML = "Bith date";
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <title>Birthname</title>
 </head>
@@ -36,30 +38,30 @@
 
             <form class="form" id="form">
                 <div class="formcontrol success">
-                    <label>Birthday</label> //
-                    <input type="number" placeholder="YEAR" max="4" id="YEAR" name="Year"> //
-                    <input type="month" placeholder="MONTH" max="" id="MONTH"> *
-                    <input type="number" placeholder="DATE" max="" id="DAY"> //
-                    <input type="date" Id="MDate" required>
+                    <label>Birthday</label>
+                    <input type="number" placeholder="YEAR" length="4" min="0000 " max="2022" id="YEAR" name="Year " required>
+                    <input type="number" placeholder="MONTH" min="01" max=" 12 " id="MONTH" required>
+                    <input type="number" placeholder="DATE" min="01" max=" 31 " id="DAY" required>
+                    <p id="test">test Year </p>
                 </div>
                 <div class=" formcontrol error ">
                     <label>Gender</label>
-                    <input type="text " placeholder="Gender " id="gender ">
-
+                    <select name="Gender " id="Gender " required>
+                    <option value="Male ">Male</option>
+                    <option value="Female ">Female</option>
+</select>
                 </div>
 
-                <button>
-                    <input type="button ">
-                </button>
+                <button type="button" onclick="myF()">
+                    Submit
+                    </button>
             </form>
         </div>
     </section>
 
-
-
-
-    <script src="main.js ">
+    <script src="main.js">
     </script>
+
 </body>
 
 </html>

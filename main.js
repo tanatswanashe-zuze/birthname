@@ -10,17 +10,25 @@
 //let year = getElementById("Year")
 //let yy = year
 //let MM = getElementById("Month")
-var today = new date()
-var birthdate = new date(datestring)
-var Year = birthdate.getfullyear
-var cc = number(year.substr(0, 2));
-var YY = number(year.substr(2.2))
+//var today = new date()
+//var birthdate = new date(datestring)
+function myF() {
+    var Year = document.getElementById("YEAR").value
+    var MM = document.getElementById("MONTH").value
+    var DD = document.getElementById("DAY").value
+    var CC = Year.substr(0, 2)
+    var YY = Year.substr(2.2)
+    var Gender = document.getElementById("Gender").focus
+    document.getElementById("test").innerHTML = Gender
 
-let birthdate = get
 
 
 
-
-function calculate() {
-    d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
 }
+
+function myCalc() {
+
+    return (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+}
+
+console.log = "d"
