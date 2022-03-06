@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-<link rel="stylesheet" href="java.js">
   <link rel="stylesheet" href="css/style.css">
   <title>Birthname</title>
 </head>
@@ -37,19 +36,17 @@
     <form class="form" id="form">
       <div class="formcontrol success">
         <label>Birthday</label>
-        <input type="date" placeholder="01/10/2022" max="" id="date">
-        <i class="fa-exclamation-circle" ></i>
-        <i class="fa-check-circle" ></i>
+        <input type="date" placeholder="month" max="" id="date">
         
-        <small>error message</small>
       </div>
       <div class="formcontrol error">
-        <label>Gender</label> 
-        <input type="text" placeholder="Gender" id="gender"> 
-        <i class="fa fa-exclamation-circle" ></i>
-        <i class="fa fa-check-circle"></i>
-        <small>error message</small>
-      </div>
+        <label>Male</label> 
+        <input type="checkbox" id="Male"> 
+      
+        <label>Female</label> 
+        <input type="checkbox" id="Female"> 
+         </div> 
+ 
     
       <button>
         Submit  
@@ -57,11 +54,9 @@
     </form>
 </div>
  </section>
-
-
  
 
-
+<script src="main.js" > </script>
 </body>
 
 </html>

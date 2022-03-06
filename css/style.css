@@ -52,6 +52,7 @@ form{
 margin: 10px;
 padding-bottom: 20px;
 position: relative;
+
 }
 .formcontrol label{
  display: inline-block;
@@ -66,28 +67,7 @@ position: relative;
 font-size: 20px;
 padding: 10px;
 }
-.formcontrol.success input{
-  border-color: #22e7a5;
-}
-.formcontrol.error{
-  border-color: rgb(243, 55, 86);
-}
 
-.formcontrol i{
-  position: absolute;
-  top: 40px;
-  right:10px; 
-}
-.formcontrol.success input i.fa-exclamation-circle{
-  visibility: visible;
-  color: rgb(35, 231, 165);
-
-}
-.formcontrol.error i.fa-check-circlefa-{
-  visibility: visible;
-  color:rgb(243, 55, 86);
-
-}
 
 .formcontrol small{
   visibility: 0;
@@ -104,6 +84,7 @@ padding: 10px;
   font-size: 20px;
   padding: 10px;
   width: 100%;
-  font-weight: bold;
+  font-weight: bold
 }
+
 
