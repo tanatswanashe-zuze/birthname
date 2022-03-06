@@ -18,13 +18,16 @@ function myF() {
     var DD = document.getElementById("DAY").value
     var CC = Year.substr(0, 2)
     var YY = Year.substr(2.2)
-    var Gender = document.getElementById("Gender").focus
-    document.getElementById("test").innerHTML = Gender
+    var Gender = document.getElementById("Gender").value
 
-
-
-
+    if (Gender == "Male") {
+        var AkanName = "Kwasi"
+    } else { AkanName = "Sbo" }
+    document.getElementById("test").innerHTML = AkanName
 }
+
+
+
 
 function myCalc() {
 
