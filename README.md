@@ -2,7 +2,7 @@
 
 -----
  ## Cotributors
- Tanatswaashe zuze <	tanatswanashe.zuze@student.moringaschool.com>
+ Tanatswanashe zuze <	tanatswanashe.zuze@student.moringaschool.com>
 
  ---
 
