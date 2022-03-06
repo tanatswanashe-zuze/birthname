@@ -8,7 +8,7 @@
 
  ## Lisence and Copyright
    
-   + MIT-[LISENCE]
+   + MIT-[LICENSE]
 
 ---
 
@@ -16,6 +16,7 @@
   
   + HTML
   + CSS
+  + javascript
 
 ----
 
