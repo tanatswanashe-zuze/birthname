@@ -2,61 +2,64 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-  <link rel="stylesheet" href="css/style.css">
-  <title>Birthname</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="java.js">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Birthname</title>
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <h1>BIRTHNAME</h1>
-    </div>
-  </header>
-  <section>
-    <div class="container">
-      <div class="welcome">
-        <h1>WELCOME</h1>
-      </div>
+    <header>
+        <div class="logo">
+            <h1>BIRTHNAME</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="welcome">
+                <h1>WELCOME</h1>
+            </div>
 
-      <div class="intro">
-        <h2>DISCOVER THE DAY OF THE WEEK YOU WERE BORN AND YOUR AKAN NAME TODAY JUST FILL THE FORM BELOW </h2>
-      </div>
-    </div>
-  </section>
-  <section class="section2">
-    <div class="cotainer2">
-    <div class="formh">
-      <h2>Fill Form</h2>
-    </div>
+            <div class="intro">
+                <h2>DISCOVER THE DAY OF THE WEEK YOU WERE BORN AND YOUR AKAN NAME TODAY JUST FILL THE FORM BELOW </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="cotainer2">
+            <div class="formh">
+                <h2>Fill Form</h2>
+            </div>
 
-    <form class="form" id="form">
-      <div class="formcontrol success">
-        <label>Birthday</label>
-        <input type="date" placeholder="month" max="" id="date">
-        
-      </div>
-      <div class="formcontrol error">
-        <label>Male</label> 
-        <input type="checkbox" id="Male"> 
-      
-        <label>Female</label> 
-        <input type="checkbox" id="Female"> 
-         </div> 
- 
-    
-      <button>
-        Submit  
-      </button>
-    </form>
-</div>
- </section>
- 
+            <form class="form" id="form">
+                <div class="formcontrol success">
+                    <label>Birthday</label> //
+                    <input type="number" placeholder="YEAR" max="4" id="YEAR" name="Year"> //
+                    <input type="month" placeholder="MONTH" max="" id="MONTH"> *
+                    <input type="number" placeholder="DATE" max="" id="DAY"> //
+                    <input type="date" Id="MDate" required>
+                </div>
+                <div class=" formcontrol error ">
+                    <label>Gender</label>
+                    <input type="text " placeholder="Gender " id="gender ">
 
-<script src="main.js" > </script>
+                </div>
+
+                <button>
+                    <input type="button ">
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <script src="main.js ">
+    </script>
 </body>
 
 </html>
