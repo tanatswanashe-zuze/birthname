@@ -4,12 +4,6 @@ body {
     background-color: blueviolet;
 }
 
-.container {
-    block-size: 100%;
-    align-items: center;
-    padding: 25px;
-}
-
 header {
     display: flex;
     justify-content: center;
