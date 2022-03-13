@@ -1,89 +1,99 @@
-body {
-    font-family: 'Roboto';
-    font-size: 22px;
-    background-color: blueviolet;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.welcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-}
-
-.intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.section2 {
-    box-sizing: border-box;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 0;
-}
-
-.cotainer2 {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 0 5;
-    width: 400px;
-    max-width: 100%;
-}
-
-.formh {
-    padding: 20px 40px;
-}
-
-form {
-    padding: 20px 40px;
-}
-
-.formcontrol {
-    margin: 10px;
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.formcontrol label {
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-.formcontrol input {
-    display: block;
-    width: 100%;
-    height: 50px;
-    border: 2px solid #f0f0f0;
-    border-radius: 4px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.formcontrol small {
-    visibility: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.form button {
-    background-color: blue;
-    border: 2px solid #f0f0f0;
-    border-radius: 5px;
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    padding: 10px;
-    width: 100%;
-    font-weight: bold
-}
+    body {
+        font-family: 'Roboto';
+        font-size: 22px;
+        background-color: blueviolet;
+    }
+    
+    span {
+        color: aliceblue;
+    }
+    
+    span :hover {
+        color: yellow;
+        cursor: pointer;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    
+    .intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: ease-in;
+    }
+    
+    .section2 {
+        box-sizing: border-box;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .cotainer2 {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 0 5;
+        width: 400px;
+        max-width: 100%;
+    }
+    
+    .formh {
+        padding: 20px 40px;
+    }
+    
+    form {
+        padding: 20px 40px;
+    }
+    
+    .formcontrol {
+        margin: 10px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    
+    .formcontrol label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    
+    .formcontrol input {
+        display: block;
+        width: 100%;
+        height: 50px;
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .formcontrol small {
+        visibility: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .form button {
+        background-color: blue;
+        border: 2px solid #f0f0f0;
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        padding: 10px;
+        width: 100%;
+        font-weight: bold
+    }
